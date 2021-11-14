@@ -1,0 +1,362 @@
+ISim log file
+Running: /home/rrohit2901/Desktop/Xilinx_ISE_DS_Lin_14.7_1015_1/RISC_KGP/RISC_KGP_Test_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /home/rrohit2901/Desktop/Xilinx_ISE_DS_Lin_14.7_1015_1/RISC_KGP/RISC_KGP_Test_isim_beh.wdb 
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+WARNING: File "/home/rrohit2901/Desktop/Xilinx_ISE_DS_Lin_14.7_1015_1/RISC_KGP/InstructionMemory.v" Line 27.  For instance InsMem/iRAM/, width 1 of formal port wea is not equal to width 4 of actual signal Wea.
+WARNING: File "/home/rrohit2901/Desktop/Xilinx_ISE_DS_Lin_14.7_1015_1/RISC_KGP/KGP_RISC.v" Line 23.  For instance uut/InsMem/, width 12 of formal port Address is not equal to width 32 of actual signal PCValue.
+WARNING:  For instance uut/InsMem/, width 4 of formal port Wea is not equal to width 1 of actual constant.
+WARNING: File "/home/rrohit2901/Desktop/Xilinx_ISE_DS_Lin_14.7_1015_1/RISC_KGP/KGP_RISC.v" Line 23.  For instance uut/DatMem/, width 12 of formal port Address is not equal to width 32 of actual signal Result.
+WARNING:  For instance uut/add32Bit/, width 1 of formal port carryIn is not equal to width 32 of actual constant.
+WARNING: File "/home/rrohit2901/Desktop/Xilinx_ISE_DS_Lin_14.7_1015_1/RISC_KGP/KGP_RISC.v" Line 30.  For instance uut/and32Bit/, width 32 of formal port out is not equal to width 1 of actual signal Change1.
+WARNING: File "/home/rrohit2901/Desktop/Xilinx_ISE_DS_Lin_14.7_1015_1/RISC_KGP/KGP_RISC.v" Line 33.  For instance uut/and32Bit/, width 32 of formal port in1 is not equal to width 1 of actual signal Branch.
+WARNING: File "/home/rrohit2901/Desktop/Xilinx_ISE_DS_Lin_14.7_1015_1/RISC_KGP/KGP_RISC.v" Line 30.  For instance uut/and32Bit/, width 32 of formal port in2 is not equal to width 1 of actual signal zero.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+ Block Memory Generator CORE Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator CORE Generator module RISC_KGP_Test.uut.InsMem.iRAM.inst.\native_mem_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator CORE Generator module RISC_KGP_Test.uut.DatMem.dMem.inst.\native_mem_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Finished circuit initialization process.
+PC Value = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx, Result = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+PC Value = 00000000000000000000000000000000, Result = 00000000000000000000000000000000
+PC Value = 00000000000000000000000000000001, Result = 00000000000000000000000000000000
+PC Value = 00000000000000000000000000000001, Result = 00000000000000000000000000001010
+PC Value = 00000000000000000000000000000010, Result = 00000000000000000000000000010100
+PC Value = 00000000000000000000000000000010, Result = 00000000000000000000000000000101
+PC Value = 00000000000000000000000000000011, Result = 00000000000000000000000000001010
+PC Value = 00000000000000000000000000000011, Result = 00000000000000000000000000000000
+PC Value = 00000000000000000000000000000100, Result = 00000000000000000000000000000000
+PC Value = 00000000000000000000000000000100, Result = 00000000000000000000000000000001
+PC Value = 00000000000000000000000000000101, Result = 00000000000000000000000000000001
+PC Value = 00000000000000000000000000000101, Result = 00000000000000000000000000000000
+PC Value = 00000000000000000000000000000110, Result = 00000000000000000000000000000000
+PC Value = 00000000000000000000000000000110, Result = 00000000000000000000000000000001
+PC Value = 00000000000000000000000000000111, Result = 00000000000000000000000000000001
+PC Value = 00000000000000000000000000000111, Result = 00000000000000000000000000000000
+PC Value = 00000000000000000000000000001000, Result = 00000000000000000000000000000000
+PC Value = 00000000000000000000000000001000, Result = 00000000000000000000000000000101
+PC Value = 00000000000000000000000000001001, Result = 00000000000000000000000000001010
+PC Value = 00000000000000000000000000001001, Result = 00000000000000000000000000000000
+PC Value = 00000000000000000000000000001010, Result = 00000000000000000000000000000000
+PC Value = 00000000000000000000000000001010, Result = 11111111111111111111111111110110
+PC Value = 00000000000000000000000000001011, Result = 11111111111111111111111111110110
+PC Value = 00000000000000000000000000001011, Result = 11111111111111111111111111111011
+PC Value = 00000000000000000000000000001100, Result = 11111111111111111111111111110001
+PC Value = 00000000000000000000000000001100, Result = 11111111111111111111111111111011
+PC Value = 00000000000000000000000000001101, Result = 11111111111111111111111111111011
+PC Value = 00000000000000000000000000001101, Result = 00000000000000000000000000000000
+PC Value = 00000000000000000000000000001110, Result = 00000000000000000000000000000000
+PC Value = 00000000000000000000000000001110, Result = 11111111111111111111111111111011
+PC Value = 00000000000000000000000000010011, Result = 11111111111111111111111111111011
+PC Value = 00000000000000000000000000010011, Result = 00000000000000000000000000000000
+PC Value = 00000000000000000000000000010100, Result = 00000000000000000000000000000000
+PC Value = 00000000000000000000000000010100, Result = 00000000000000000000000000000101
+PC Value = 00000000000000000000000000010101, Result = 00000000000000000000000000000101
+PC Value = 00000000000000000000000000010101, Result = 00000000000000000000000000000000
+PC Value = 00000000000000000000000000000110, Result = 00000000000000000000000000000000
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+WARNING: File "/home/rrohit2901/Desktop/Xilinx_ISE_DS_Lin_14.7_1015_1/RISC_KGP/InstructionMemory.v" Line 27.  For instance InsMem/iRAM/, width 1 of formal port wea is not equal to width 4 of actual signal Wea.
+WARNING: File "/home/rrohit2901/Desktop/Xilinx_ISE_DS_Lin_14.7_1015_1/RISC_KGP/KGP_RISC.v" Line 23.  For instance uut/InsMem/, width 12 of formal port Address is not equal to width 32 of actual signal PCValue.
+WARNING:  For instance uut/InsMem/, width 4 of formal port Wea is not equal to width 1 of actual constant.
+WARNING: File "/home/rrohit2901/Desktop/Xilinx_ISE_DS_Lin_14.7_1015_1/RISC_KGP/KGP_RISC.v" Line 23.  For instance uut/DatMem/, width 12 of formal port Address is not equal to width 32 of actual signal Result.
+WARNING:  For instance uut/add32Bit/, width 1 of formal port carryIn is not equal to width 32 of actual constant.
+WARNING: File "/home/rrohit2901/Desktop/Xilinx_ISE_DS_Lin_14.7_1015_1/RISC_KGP/KGP_RISC.v" Line 30.  For instance uut/and32Bit/, width 32 of formal port out is not equal to width 1 of actual signal Change1.
+WARNING: File "/home/rrohit2901/Desktop/Xilinx_ISE_DS_Lin_14.7_1015_1/RISC_KGP/KGP_RISC.v" Line 33.  For instance uut/and32Bit/, width 32 of formal port in1 is not equal to width 1 of actual signal Branch.
+WARNING: File "/home/rrohit2901/Desktop/Xilinx_ISE_DS_Lin_14.7_1015_1/RISC_KGP/KGP_RISC.v" Line 30.  For instance uut/and32Bit/, width 32 of formal port in2 is not equal to width 1 of actual signal zero.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+ Block Memory Generator CORE Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator CORE Generator module RISC_KGP_Test.uut.InsMem.iRAM.inst.\native_mem_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator CORE Generator module RISC_KGP_Test.uut.DatMem.dMem.inst.\native_mem_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Finished circuit initialization process.
+PC Value = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx, Result = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+PC Value = 00000000000000000000000000000000, Result = 00000000000000000000000000000000
+PC Value = 00000000000000000000000000000001, Result = 00000000000000000000000000000000
+PC Value = 00000000000000000000000000000001, Result = 00000000000000000000000000001010
+PC Value = 00000000000000000000000000000010, Result = 00000000000000000000000000010100
+PC Value = 00000000000000000000000000000010, Result = 00000000000000000000000000000101
+PC Value = 00000000000000000000000000000011, Result = 00000000000000000000000000001010
+PC Value = 00000000000000000000000000000011, Result = 00000000000000000000000000000000
+PC Value = 00000000000000000000000000000100, Result = 00000000000000000000000000000000
+PC Value = 00000000000000000000000000000100, Result = 00000000000000000000000000000001
+PC Value = 00000000000000000000000000000101, Result = 00000000000000000000000000000001
+PC Value = 00000000000000000000000000000101, Result = 00000000000000000000000000000000
+PC Value = 00000000000000000000000000000110, Result = 00000000000000000000000000000000
+PC Value = 00000000000000000000000000000110, Result = 00000000000000000000000000000001
+PC Value = 00000000000000000000000000000111, Result = 00000000000000000000000000000001
+PC Value = 00000000000000000000000000000111, Result = 00000000000000000000000000000000
+PC Value = 00000000000000000000000000001000, Result = 00000000000000000000000000000000
+PC Value = 00000000000000000000000000001000, Result = 00000000000000000000000000000101
+PC Value = 00000000000000000000000000001001, Result = 00000000000000000000000000001010
+PC Value = 00000000000000000000000000001001, Result = 00000000000000000000000000000000
+PC Value = 00000000000000000000000000001010, Result = 00000000000000000000000000000000
+PC Value = 00000000000000000000000000001010, Result = 11111111111111111111111111110110
+PC Value = 00000000000000000000000000001011, Result = 11111111111111111111111111110110
+PC Value = 00000000000000000000000000001011, Result = 11111111111111111111111111111011
+PC Value = 00000000000000000000000000001100, Result = 11111111111111111111111111110001
+PC Value = 00000000000000000000000000001100, Result = 11111111111111111111111111111011
+PC Value = 00000000000000000000000000001101, Result = 11111111111111111111111111111011
+PC Value = 00000000000000000000000000001101, Result = 00000000000000000000000000000000
+PC Value = 00000000000000000000000000001110, Result = 00000000000000000000000000000000
+PC Value = 00000000000000000000000000001110, Result = 11111111111111111111111111111011
+PC Value = 00000000000000000000000000010011, Result = 11111111111111111111111111111011
+PC Value = 00000000000000000000000000010011, Result = 00000000000000000000000000000000
+PC Value = 00000000000000000000000000010100, Result = 00000000000000000000000000000000
+PC Value = 00000000000000000000000000010100, Result = 00000000000000000000000000000101
+PC Value = 00000000000000000000000000010101, Result = 00000000000000000000000000000101
+PC Value = 00000000000000000000000000010101, Result = 00000000000000000000000000000000
+PC Value = 00000000000000000000000000000110, Result = 00000000000000000000000000000000
+PC Value = 00000000000000000000000000000111, Result = 00000000000000000000000000000000
+PC Value = 00000000000000000000000000000111, Result = 00000000000000000000000000000000
+PC Value = 00000000000000000000000000001000, Result = 00000000000000000000000000000000
+PC Value = 00000000000000000000000000001000, Result = 00000000000000000000000000000101
+PC Value = 00000000000000000000000000001001, Result = 00000000000000000000000000001010
+PC Value = 00000000000000000000000000001001, Result = 00000000000000000000000000000000
+PC Value = 00000000000000000000000000001010, Result = 00000000000000000000000000000000
+PC Value = 00000000000000000000000000001010, Result = 11111111111111111111111111111011
+PC Value = 00000000000000000000000000001011, Result = 11111111111111111111111111111011
+PC Value = 00000000000000000000000000001011, Result = 00000000000000000000000000000000
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+WARNING: File "/home/rrohit2901/Desktop/Xilinx_ISE_DS_Lin_14.7_1015_1/RISC_KGP/InstructionMemory.v" Line 27.  For instance InsMem/iRAM/, width 1 of formal port wea is not equal to width 4 of actual signal Wea.
+WARNING: File "/home/rrohit2901/Desktop/Xilinx_ISE_DS_Lin_14.7_1015_1/RISC_KGP/KGP_RISC.v" Line 23.  For instance uut/InsMem/, width 12 of formal port Address is not equal to width 32 of actual signal PCValue.
+WARNING:  For instance uut/InsMem/, width 4 of formal port Wea is not equal to width 1 of actual constant.
+WARNING: File "/home/rrohit2901/Desktop/Xilinx_ISE_DS_Lin_14.7_1015_1/RISC_KGP/KGP_RISC.v" Line 23.  For instance uut/DatMem/, width 12 of formal port Address is not equal to width 32 of actual signal Result.
+WARNING:  For instance uut/add32Bit/, width 1 of formal port carryIn is not equal to width 32 of actual constant.
+WARNING: File "/home/rrohit2901/Desktop/Xilinx_ISE_DS_Lin_14.7_1015_1/RISC_KGP/KGP_RISC.v" Line 30.  For instance uut/and32Bit/, width 32 of formal port out is not equal to width 1 of actual signal Change1.
+WARNING: File "/home/rrohit2901/Desktop/Xilinx_ISE_DS_Lin_14.7_1015_1/RISC_KGP/KGP_RISC.v" Line 33.  For instance uut/and32Bit/, width 32 of formal port in1 is not equal to width 1 of actual signal Branch.
+WARNING: File "/home/rrohit2901/Desktop/Xilinx_ISE_DS_Lin_14.7_1015_1/RISC_KGP/KGP_RISC.v" Line 30.  For instance uut/and32Bit/, width 32 of formal port in2 is not equal to width 1 of actual signal zero.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+ Block Memory Generator CORE Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator CORE Generator module RISC_KGP_Test.uut.InsMem.iRAM.inst.\native_mem_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator CORE Generator module RISC_KGP_Test.uut.DatMem.dMem.inst.\native_mem_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Finished circuit initialization process.
+PC Value = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx, Result = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx, time =                    0
+PC Value = 00000000000000000000000000000000, Result = 00000000000000000000000000000000, time =                   60
+PC Value = 00000000000000000000000000000001, Result = 00000000000000000000000000000000, time =                  100
+PC Value = 00000000000000000000000000000001, Result = 00000000000000000000000000001010, time =                  100
+PC Value = 00000000000000000000000000000010, Result = 00000000000000000000000000010100, time =                  140
+PC Value = 00000000000000000000000000000010, Result = 00000000000000000000000000000101, time =                  140
+PC Value = 00000000000000000000000000000011, Result = 00000000000000000000000000001010, time =                  180
+PC Value = 00000000000000000000000000000011, Result = 00000000000000000000000000000000, time =                  180
+PC Value = 00000000000000000000000000000100, Result = 00000000000000000000000000000000, time =                  220
+PC Value = 00000000000000000000000000000100, Result = 00000000000000000000000000000001, time =                  220
+PC Value = 00000000000000000000000000000101, Result = 00000000000000000000000000000001, time =                  260
+PC Value = 00000000000000000000000000000101, Result = 00000000000000000000000000000000, time =                  260
+PC Value = 00000000000000000000000000000110, Result = 00000000000000000000000000000000, time =                  300
+PC Value = 00000000000000000000000000000110, Result = 00000000000000000000000000000001, time =                  300
+PC Value = 00000000000000000000000000000111, Result = 00000000000000000000000000000001, time =                  340
+PC Value = 00000000000000000000000000000111, Result = 00000000000000000000000000000000, time =                  340
+PC Value = 00000000000000000000000000001000, Result = 00000000000000000000000000000000, time =                  380
+PC Value = 00000000000000000000000000001000, Result = 00000000000000000000000000000101, time =                  380
+PC Value = 00000000000000000000000000001001, Result = 00000000000000000000000000001010, time =                  420
+PC Value = 00000000000000000000000000001001, Result = 00000000000000000000000000000000, time =                  420
+PC Value = 00000000000000000000000000001010, Result = 00000000000000000000000000000000, time =                  460
+PC Value = 00000000000000000000000000001010, Result = 11111111111111111111111111110110, time =                  460
+PC Value = 00000000000000000000000000001011, Result = 11111111111111111111111111110110, time =                  500
+PC Value = 00000000000000000000000000001011, Result = 11111111111111111111111111111011, time =                  500
+PC Value = 00000000000000000000000000001100, Result = 11111111111111111111111111110001, time =                  540
+PC Value = 00000000000000000000000000001100, Result = 11111111111111111111111111111011, time =                  540
+PC Value = 00000000000000000000000000001101, Result = 11111111111111111111111111111011, time =                  580
+PC Value = 00000000000000000000000000001101, Result = 00000000000000000000000000000000, time =                  580
+PC Value = 00000000000000000000000000001110, Result = 00000000000000000000000000000000, time =                  620
+PC Value = 00000000000000000000000000001110, Result = 11111111111111111111111111111011, time =                  620
+PC Value = 00000000000000000000000000010011, Result = 11111111111111111111111111111011, time =                  660
+PC Value = 00000000000000000000000000010011, Result = 00000000000000000000000000000000, time =                  660
+PC Value = 00000000000000000000000000010100, Result = 00000000000000000000000000000000, time =                  700
+PC Value = 00000000000000000000000000010100, Result = 00000000000000000000000000000101, time =                  700
+PC Value = 00000000000000000000000000010101, Result = 00000000000000000000000000000101, time =                  740
+PC Value = 00000000000000000000000000010101, Result = 00000000000000000000000000000000, time =                  740
+PC Value = 00000000000000000000000000000110, Result = 00000000000000000000000000000000, time =                  780
+PC Value = 00000000000000000000000000000111, Result = 00000000000000000000000000000000, time =                  820
+PC Value = 00000000000000000000000000000111, Result = 00000000000000000000000000000000, time =                  820
+PC Value = 00000000000000000000000000001000, Result = 00000000000000000000000000000000, time =                  860
+PC Value = 00000000000000000000000000001000, Result = 00000000000000000000000000000101, time =                  860
+PC Value = 00000000000000000000000000001001, Result = 00000000000000000000000000001010, time =                  900
+PC Value = 00000000000000000000000000001001, Result = 00000000000000000000000000000000, time =                  900
+PC Value = 00000000000000000000000000001010, Result = 00000000000000000000000000000000, time =                  940
+PC Value = 00000000000000000000000000001010, Result = 11111111111111111111111111111011, time =                  940
+PC Value = 00000000000000000000000000001011, Result = 11111111111111111111111111111011, time =                  980
+PC Value = 00000000000000000000000000001011, Result = 00000000000000000000000000000000, time =                  980
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+WARNING: File "/home/rrohit2901/Desktop/Xilinx_ISE_DS_Lin_14.7_1015_1/RISC_KGP/InstructionMemory.v" Line 27.  For instance InsMem/iRAM/, width 1 of formal port wea is not equal to width 4 of actual signal Wea.
+WARNING: File "/home/rrohit2901/Desktop/Xilinx_ISE_DS_Lin_14.7_1015_1/RISC_KGP/KGP_RISC.v" Line 23.  For instance uut/InsMem/, width 12 of formal port Address is not equal to width 32 of actual signal PCValue.
+WARNING:  For instance uut/InsMem/, width 4 of formal port Wea is not equal to width 1 of actual constant.
+WARNING: File "/home/rrohit2901/Desktop/Xilinx_ISE_DS_Lin_14.7_1015_1/RISC_KGP/KGP_RISC.v" Line 23.  For instance uut/DatMem/, width 12 of formal port Address is not equal to width 32 of actual signal Result.
+WARNING:  For instance uut/add32Bit/, width 1 of formal port carryIn is not equal to width 32 of actual constant.
+WARNING: File "/home/rrohit2901/Desktop/Xilinx_ISE_DS_Lin_14.7_1015_1/RISC_KGP/KGP_RISC.v" Line 30.  For instance uut/and32Bit/, width 32 of formal port out is not equal to width 1 of actual signal Change1.
+WARNING: File "/home/rrohit2901/Desktop/Xilinx_ISE_DS_Lin_14.7_1015_1/RISC_KGP/KGP_RISC.v" Line 33.  For instance uut/and32Bit/, width 32 of formal port in1 is not equal to width 1 of actual signal Branch.
+WARNING: File "/home/rrohit2901/Desktop/Xilinx_ISE_DS_Lin_14.7_1015_1/RISC_KGP/KGP_RISC.v" Line 30.  For instance uut/and32Bit/, width 32 of formal port in2 is not equal to width 1 of actual signal zero.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+ Block Memory Generator CORE Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator CORE Generator module RISC_KGP_Test.uut.InsMem.iRAM.inst.\native_mem_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator CORE Generator module RISC_KGP_Test.uut.DatMem.dMem.inst.\native_mem_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Finished circuit initialization process.
+PC Value = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx, Result = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx, time =                    0
+PC Value = 00000000000000000000000000000000, Result = 00000000000000000000000000000000, time =                   30
+PC Value = 00000000000000000000000000000001, Result = 00000000000000000000000000000000, time =                   50
+PC Value = 00000000000000000000000000000001, Result = 00000000000000000000000000001010, time =                   50
+PC Value = 00000000000000000000000000000010, Result = 00000000000000000000000000010100, time =                   70
+PC Value = 00000000000000000000000000000010, Result = 00000000000000000000000000000101, time =                   70
+PC Value = 00000000000000000000000000000011, Result = 00000000000000000000000000001010, time =                   90
+PC Value = 00000000000000000000000000000011, Result = 00000000000000000000000000000000, time =                   90
+PC Value = 00000000000000000000000000000100, Result = 00000000000000000000000000000000, time =                  110
+PC Value = 00000000000000000000000000000100, Result = 00000000000000000000000000000001, time =                  110
+PC Value = 00000000000000000000000000000101, Result = 00000000000000000000000000000001, time =                  130
+PC Value = 00000000000000000000000000000101, Result = 00000000000000000000000000000000, time =                  130
+PC Value = 00000000000000000000000000000110, Result = 00000000000000000000000000000000, time =                  150
+PC Value = 00000000000000000000000000000110, Result = 00000000000000000000000000000001, time =                  150
+PC Value = 00000000000000000000000000000111, Result = 00000000000000000000000000000001, time =                  170
+PC Value = 00000000000000000000000000000111, Result = 00000000000000000000000000000000, time =                  170
+PC Value = 00000000000000000000000000001000, Result = 00000000000000000000000000000000, time =                  190
+PC Value = 00000000000000000000000000001000, Result = 00000000000000000000000000000101, time =                  190
+PC Value = 00000000000000000000000000001001, Result = 00000000000000000000000000001010, time =                  210
+PC Value = 00000000000000000000000000001001, Result = 00000000000000000000000000000000, time =                  210
+PC Value = 00000000000000000000000000001010, Result = 00000000000000000000000000000000, time =                  230
+PC Value = 00000000000000000000000000001010, Result = 11111111111111111111111111110110, time =                  230
+PC Value = 00000000000000000000000000001011, Result = 11111111111111111111111111110110, time =                  250
+PC Value = 00000000000000000000000000001011, Result = 11111111111111111111111111111011, time =                  250
+PC Value = 00000000000000000000000000001100, Result = 11111111111111111111111111110001, time =                  270
+PC Value = 00000000000000000000000000001100, Result = 11111111111111111111111111111011, time =                  270
+PC Value = 00000000000000000000000000001101, Result = 11111111111111111111111111111011, time =                  290
+PC Value = 00000000000000000000000000001101, Result = 00000000000000000000000000000000, time =                  290
+PC Value = 00000000000000000000000000001110, Result = 00000000000000000000000000000000, time =                  310
+PC Value = 00000000000000000000000000001110, Result = 11111111111111111111111111111011, time =                  310
+PC Value = 00000000000000000000000000010011, Result = 11111111111111111111111111111011, time =                  330
+PC Value = 00000000000000000000000000010011, Result = 00000000000000000000000000000000, time =                  330
+PC Value = 00000000000000000000000000010100, Result = 00000000000000000000000000000000, time =                  350
+PC Value = 00000000000000000000000000010100, Result = 00000000000000000000000000000101, time =                  350
+PC Value = 00000000000000000000000000010101, Result = 00000000000000000000000000000101, time =                  370
+PC Value = 00000000000000000000000000010101, Result = 00000000000000000000000000000000, time =                  370
+PC Value = 00000000000000000000000000000110, Result = 00000000000000000000000000000000, time =                  390
+PC Value = 00000000000000000000000000000111, Result = 00000000000000000000000000000000, time =                  410
+PC Value = 00000000000000000000000000000111, Result = 00000000000000000000000000000000, time =                  410
+PC Value = 00000000000000000000000000001000, Result = 00000000000000000000000000000000, time =                  430
+PC Value = 00000000000000000000000000001000, Result = 00000000000000000000000000000101, time =                  430
+PC Value = 00000000000000000000000000001001, Result = 00000000000000000000000000001010, time =                  450
+PC Value = 00000000000000000000000000001001, Result = 00000000000000000000000000000000, time =                  450
+PC Value = 00000000000000000000000000001010, Result = 00000000000000000000000000000000, time =                  470
+PC Value = 00000000000000000000000000001010, Result = 11111111111111111111111111111011, time =                  470
+PC Value = 00000000000000000000000000001011, Result = 11111111111111111111111111111011, time =                  490
+PC Value = 00000000000000000000000000001011, Result = 00000000000000000000000000000000, time =                  490
+PC Value = 00000000000000000000000000001100, Result = 11111111111111111111111111111011, time =                  510
+PC Value = 00000000000000000000000000001100, Result = 00000000000000000000000000000000, time =                  510
+PC Value = 00000000000000000000000000010110, Result = 00000000000000000000000000000000, time =                  530
+PC Value = 00000000000000000000000000010111, Result = 00000000000000000000000000000000, time =                  550
+PC Value = 00000000000000000000000000010111, Result = 00000000000000000000000000000010, time =                  550
+PC Value = 00000000000000000000000000011000, Result = 00000000000000000000000000000010, time =                  570
+PC Value = 00000000000000000000000000011000, Result = 00000000000000000000000000000000, time =                  570
+PC Value = 00000000000000000000000000011001, Result = 00000000000000000000000000000000, time =                  590
+PC Value = 00000000000000000000000000011010, Result = 00000000000000000000000000000000, time =                  610
+PC Value = 00000000000000000000000000011011, Result = 00000000000000000000000000000000, time =                  630
+PC Value = 00000000000000000000000000011100, Result = 00000000000000000000000000000000, time =                  650
+PC Value = 00000000000000000000000000011101, Result = 00000000000000000000000000000000, time =                  670
+PC Value = 00000000000000000000000000011110, Result = 00000000000000000000000000000000, time =                  690
+PC Value = 00000000000000000000000000011111, Result = 00000000000000000000000000000000, time =                  710
+PC Value = 00000000000000000000000000100000, Result = 00000000000000000000000000000000, time =                  730
+PC Value = 00000000000000000000000000100001, Result = 00000000000000000000000000000000, time =                  750
+PC Value = 00000000000000000000000000100010, Result = 00000000000000000000000000000000, time =                  770
+PC Value = 00000000000000000000000000100011, Result = 00000000000000000000000000000000, time =                  790
+PC Value = 00000000000000000000000000100100, Result = 00000000000000000000000000000000, time =                  810
+PC Value = 00000000000000000000000000100101, Result = 00000000000000000000000000000000, time =                  830
+PC Value = 00000000000000000000000000100110, Result = 00000000000000000000000000000000, time =                  850
+PC Value = 00000000000000000000000000100111, Result = 00000000000000000000000000000000, time =                  870
+PC Value = 00000000000000000000000000101000, Result = 00000000000000000000000000000000, time =                  890
+PC Value = 00000000000000000000000000101001, Result = 00000000000000000000000000000000, time =                  910
+PC Value = 00000000000000000000000000101010, Result = 00000000000000000000000000000000, time =                  930
+PC Value = 00000000000000000000000000101011, Result = 00000000000000000000000000000000, time =                  950
+PC Value = 00000000000000000000000000101100, Result = 00000000000000000000000000000000, time =                  970
+PC Value = 00000000000000000000000000101101, Result = 00000000000000000000000000000000, time =                  990
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+WARNING: File "/home/rrohit2901/Desktop/Xilinx_ISE_DS_Lin_14.7_1015_1/RISC_KGP/InstructionMemory.v" Line 27.  For instance InsMem/iRAM/, width 1 of formal port wea is not equal to width 4 of actual signal Wea.
+WARNING: File "/home/rrohit2901/Desktop/Xilinx_ISE_DS_Lin_14.7_1015_1/RISC_KGP/KGP_RISC.v" Line 23.  For instance uut/InsMem/, width 12 of formal port Address is not equal to width 32 of actual signal PCValue.
+WARNING:  For instance uut/InsMem/, width 4 of formal port Wea is not equal to width 1 of actual constant.
+WARNING: File "/home/rrohit2901/Desktop/Xilinx_ISE_DS_Lin_14.7_1015_1/RISC_KGP/KGP_RISC.v" Line 23.  For instance uut/DatMem/, width 12 of formal port Address is not equal to width 32 of actual signal Result.
+WARNING:  For instance uut/add32Bit/, width 1 of formal port carryIn is not equal to width 32 of actual constant.
+WARNING: File "/home/rrohit2901/Desktop/Xilinx_ISE_DS_Lin_14.7_1015_1/RISC_KGP/KGP_RISC.v" Line 30.  For instance uut/and32Bit/, width 32 of formal port out is not equal to width 1 of actual signal Change1.
+WARNING: File "/home/rrohit2901/Desktop/Xilinx_ISE_DS_Lin_14.7_1015_1/RISC_KGP/KGP_RISC.v" Line 33.  For instance uut/and32Bit/, width 32 of formal port in1 is not equal to width 1 of actual signal Branch.
+WARNING: File "/home/rrohit2901/Desktop/Xilinx_ISE_DS_Lin_14.7_1015_1/RISC_KGP/KGP_RISC.v" Line 30.  For instance uut/and32Bit/, width 32 of formal port in2 is not equal to width 1 of actual signal zero.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+ Block Memory Generator CORE Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator CORE Generator module RISC_KGP_Test.uut.InsMem.iRAM.inst.\native_mem_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator CORE Generator module RISC_KGP_Test.uut.DatMem.dMem.inst.\native_mem_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Finished circuit initialization process.
+PC Value = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx, time =                    0
+PC Value = 00000000000000000000000000000000, time =                   30
+PC Value = 00000000000000000000000000000001, time =                   50
+PC Value = 00000000000000000000000000000010, time =                   70
+PC Value = 00000000000000000000000000000011, time =                   90
+PC Value = 00000000000000000000000000000100, time =                  110
+PC Value = 00000000000000000000000000000101, time =                  130
+PC Value = 00000000000000000000000000000110, time =                  150
+PC Value = 00000000000000000000000000000111, time =                  170
+PC Value = 00000000000000000000000000001000, time =                  190
+PC Value = 00000000000000000000000000001001, time =                  210
+PC Value = 00000000000000000000000000001010, time =                  230
+PC Value = 00000000000000000000000000001011, time =                  250
+PC Value = 00000000000000000000000000001100, time =                  270
+PC Value = 00000000000000000000000000001101, time =                  290
+PC Value = 00000000000000000000000000001110, time =                  310
+PC Value = 00000000000000000000000000010011, time =                  330
+PC Value = 00000000000000000000000000010100, time =                  350
+PC Value = 00000000000000000000000000010101, time =                  370
+PC Value = 00000000000000000000000000000110, time =                  390
+PC Value = 00000000000000000000000000000111, time =                  410
+PC Value = 00000000000000000000000000001000, time =                  430
+PC Value = 00000000000000000000000000001001, time =                  450
+PC Value = 00000000000000000000000000001010, time =                  470
+PC Value = 00000000000000000000000000001011, time =                  490
+PC Value = 00000000000000000000000000001100, time =                  510
+PC Value = 00000000000000000000000000010110, time =                  530
+PC Value = 00000000000000000000000000010111, time =                  550
+PC Value = 00000000000000000000000000011000, time =                  570
+PC Value = 00000000000000000000000000011001, time =                  590
+PC Value = 00000000000000000000000000011010, time =                  610
+PC Value = 00000000000000000000000000011011, time =                  630
+PC Value = 00000000000000000000000000011100, time =                  650
+PC Value = 00000000000000000000000000011101, time =                  670
+PC Value = 00000000000000000000000000011110, time =                  690
+PC Value = 00000000000000000000000000011111, time =                  710
+PC Value = 00000000000000000000000000100000, time =                  730
+PC Value = 00000000000000000000000000100001, time =                  750
+PC Value = 00000000000000000000000000100010, time =                  770
+PC Value = 00000000000000000000000000100011, time =                  790
+PC Value = 00000000000000000000000000100100, time =                  810
+PC Value = 00000000000000000000000000100101, time =                  830
+PC Value = 00000000000000000000000000100110, time =                  850
+PC Value = 00000000000000000000000000100111, time =                  870
+PC Value = 00000000000000000000000000101000, time =                  890
+PC Value = 00000000000000000000000000101001, time =                  910
+PC Value = 00000000000000000000000000101010, time =                  930
+PC Value = 00000000000000000000000000101011, time =                  950
+PC Value = 00000000000000000000000000101100, time =                  970
+PC Value = 00000000000000000000000000101101, time =                  990
+# exit 0
