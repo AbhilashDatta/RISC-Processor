@@ -1,0 +1,2 @@
+RISC Processor
+This is a single cycle processor (i.e. each instruction is completed in single cycle) and it works for the particular Instruction Set Architecture given in the documentation.
